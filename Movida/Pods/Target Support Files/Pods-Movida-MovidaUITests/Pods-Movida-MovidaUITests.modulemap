@@ -1,0 +1,6 @@
+framework module Pods_Movida_MovidaUITests {
+  umbrella header "Pods-Movida-MovidaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

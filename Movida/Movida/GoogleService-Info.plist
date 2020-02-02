@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>277279109331-pi299ibt71rvqi02dbsp44q7mk92t7lq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.277279109331-pi299ibt71rvqi02dbsp44q7mk92t7lq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBd4lGqC7d7LwgXr50aaiOyT9tieYUukjQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>277279109331</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Weconnect.Movida</string>
+	<key>PROJECT_ID</key>
+	<string>movida-7bb0b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>movida-7bb0b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:277279109331:ios:ca9d363a738cb53561e426</string>
+	<key>DATABASE_URL</key>
+	<string>https://movida-7bb0b.firebaseio.com</string>
+</dict>
+</plist>

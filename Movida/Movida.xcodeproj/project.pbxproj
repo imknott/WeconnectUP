@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B965DFA2D3229E20246E417 /* Pods_MovidaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F658E4591684D66D9DA1048 /* Pods_MovidaTests.framework */; };
+		3E7C42EBBFB9790C99A39CC7 /* Pods_Movida_MovidaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518299150C04A2C3387E8019 /* Pods_Movida_MovidaUITests.framework */; };
+		8F56D668E261CF6DD9DCF27F /* Pods_Movida.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777F29C7E6AD29A60B4E0D53 /* Pods_Movida.framework */; };
+		A9550EA023E63CC200E3C9BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9550E9F23E63CC200E3C9BE /* GoogleService-Info.plist */; };
+		A9550EA223E6423100E3C9BE /* imageAssets in Resources */ = {isa = PBXBuildFile; fileRef = A9550EA123E6423100E3C9BE /* imageAssets */; };
+		A9550ECC23E6730900E3C9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9550ECA23E6730800E3C9BE /* Main.storyboard */; };
+		A9550ECE23E67D5700E3C9BE /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9550ECD23E67D5700E3C9BE /* LogInView.swift */; };
+		A9550ED223E67F8900E3C9BE /* EventFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9550ED123E67F8900E3C9BE /* EventFeed.swift */; };
+		A9550ED423E6883700E3C9BE /* eventFeedTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9550ED323E6883700E3C9BE /* eventFeedTableCell.swift */; };
+		A9DA03D023E63945007E91F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA03CF23E63945007E91F8 /* AppDelegate.swift */; };
+		A9DA03D223E63945007E91F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA03D123E63945007E91F8 /* SceneDelegate.swift */; };
+		A9DA03D423E63945007E91F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA03D323E63945007E91F8 /* ViewController.swift */; };
+		A9DA03D923E63948007E91F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DA03D823E63948007E91F8 /* Assets.xcassets */; };
+		A9DA03DC23E63948007E91F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DA03DA23E63948007E91F8 /* LaunchScreen.storyboard */; };
+		A9DA03E723E63948007E91F8 /* MovidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA03E623E63948007E91F8 /* MovidaTests.swift */; };
+		A9DA03F223E63948007E91F8 /* MovidaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA03F123E63948007E91F8 /* MovidaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9DA03E323E63948007E91F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9DA03C423E63945007E91F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9DA03CB23E63945007E91F8;
+			remoteInfo = Movida;
+		};
+		A9DA03EE23E63948007E91F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9DA03C423E63945007E91F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9DA03CB23E63945007E91F8;
+			remoteInfo = Movida;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F658E4591684D66D9DA1048 /* Pods_MovidaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovidaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2590E5E09561A23038965D37 /* Pods-Movida-MovidaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movida-MovidaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Movida-MovidaUITests/Pods-Movida-MovidaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CDFD527E469F42DE7DB736A /* Pods-MovidaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovidaTests.debug.xcconfig"; path = "Target Support Files/Pods-MovidaTests/Pods-MovidaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		518299150C04A2C3387E8019 /* Pods_Movida_MovidaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movida_MovidaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEB861F7818FCA03B07CF03 /* Pods-Movida.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movida.debug.xcconfig"; path = "Target Support Files/Pods-Movida/Pods-Movida.debug.xcconfig"; sourceTree = "<group>"; };
+		777F29C7E6AD29A60B4E0D53 /* Pods_Movida.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movida.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D92DD8B12F6BCAD0E32704 /* Pods-Movida.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movida.release.xcconfig"; path = "Target Support Files/Pods-Movida/Pods-Movida.release.xcconfig"; sourceTree = "<group>"; };
+		A7A82862C78925432BDF8FF1 /* Pods-MovidaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovidaTests.release.xcconfig"; path = "Target Support Files/Pods-MovidaTests/Pods-MovidaTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9550E9F23E63CC200E3C9BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A9550EA123E6423100E3C9BE /* imageAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = imageAssets; sourceTree = "<group>"; };
+		A9550ECB23E6730800E3C9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9550ECD23E67D5700E3C9BE /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		A9550ED123E67F8900E3C9BE /* EventFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFeed.swift; sourceTree = "<group>"; };
+		A9550ED323E6883700E3C9BE /* eventFeedTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eventFeedTableCell.swift; sourceTree = "<group>"; };
+		A9550ED523E6883B00E3C9BE /* eventFeedTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = eventFeedTableCell.xib; sourceTree = "<group>"; };
+		A9DA03CC23E63945007E91F8 /* Movida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movida.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DA03CF23E63945007E91F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9DA03D123E63945007E91F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A9DA03D323E63945007E91F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9DA03D823E63948007E91F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9DA03DB23E63948007E91F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9DA03DD23E63948007E91F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DA03E223E63948007E91F8 /* MovidaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovidaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DA03E623E63948007E91F8 /* MovidaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovidaTests.swift; sourceTree = "<group>"; };
+		A9DA03E823E63948007E91F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DA03ED23E63948007E91F8 /* MovidaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovidaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DA03F123E63948007E91F8 /* MovidaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovidaUITests.swift; sourceTree = "<group>"; };
+		A9DA03F323E63948007E91F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85DC7A0A58773CF7705573A /* Pods-Movida-MovidaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movida-MovidaUITests.release.xcconfig"; path = "Target Support Files/Pods-Movida-MovidaUITests/Pods-Movida-MovidaUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9DA03C923E63945007E91F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F56D668E261CF6DD9DCF27F /* Pods_Movida.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DA03DF23E63948007E91F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B965DFA2D3229E20246E417 /* Pods_MovidaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DA03EA23E63948007E91F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7C42EBBFB9790C99A39CC7 /* Pods_Movida_MovidaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FC06E7BDA1CA4935E25593F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				777F29C7E6AD29A60B4E0D53 /* Pods_Movida.framework */,
+				518299150C04A2C3387E8019 /* Pods_Movida_MovidaUITests.framework */,
+				1F658E4591684D66D9DA1048 /* Pods_MovidaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9DA03C323E63945007E91F8 = {
+			isa = PBXGroup;
+			children = (
+				A9DA03CE23E63945007E91F8 /* Movida */,
+				A9DA03E523E63948007E91F8 /* MovidaTests */,
+				A9DA03F023E63948007E91F8 /* MovidaUITests */,
+				A9DA03CD23E63945007E91F8 /* Products */,
+				FFC411DE3C946E0B917D1A04 /* Pods */,
+				9FC06E7BDA1CA4935E25593F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9DA03CD23E63945007E91F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA03CC23E63945007E91F8 /* Movida.app */,
+				A9DA03E223E63948007E91F8 /* MovidaTests.xctest */,
+				A9DA03ED23E63948007E91F8 /* MovidaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9DA03CE23E63945007E91F8 /* Movida */ = {
+			isa = PBXGroup;
+			children = (
+				A9550ED323E6883700E3C9BE /* eventFeedTableCell.swift */,
+				A9550ED523E6883B00E3C9BE /* eventFeedTableCell.xib */,
+				A9DA03CF23E63945007E91F8 /* AppDelegate.swift */,
+				A9DA03D123E63945007E91F8 /* SceneDelegate.swift */,
+				A9DA03D323E63945007E91F8 /* ViewController.swift */,
+				A9550ECA23E6730800E3C9BE /* Main.storyboard */,
+				A9550EA123E6423100E3C9BE /* imageAssets */,
+				A9DA03D823E63948007E91F8 /* Assets.xcassets */,
+				A9DA03DA23E63948007E91F8 /* LaunchScreen.storyboard */,
+				A9550E9F23E63CC200E3C9BE /* GoogleService-Info.plist */,
+				A9DA03DD23E63948007E91F8 /* Info.plist */,
+				A9550ECD23E67D5700E3C9BE /* LogInView.swift */,
+				A9550ED123E67F8900E3C9BE /* EventFeed.swift */,
+			);
+			path = Movida;
+			sourceTree = "<group>";
+		};
+		A9DA03E523E63948007E91F8 /* MovidaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA03E623E63948007E91F8 /* MovidaTests.swift */,
+				A9DA03E823E63948007E91F8 /* Info.plist */,
+			);
+			path = MovidaTests;
+			sourceTree = "<group>";
+		};
+		A9DA03F023E63948007E91F8 /* MovidaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA03F123E63948007E91F8 /* MovidaUITests.swift */,
+				A9DA03F323E63948007E91F8 /* Info.plist */,
+			);
+			path = MovidaUITests;
+			sourceTree = "<group>";
+		};
+		FFC411DE3C946E0B917D1A04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DEB861F7818FCA03B07CF03 /* Pods-Movida.debug.xcconfig */,
+				84D92DD8B12F6BCAD0E32704 /* Pods-Movida.release.xcconfig */,
+				2590E5E09561A23038965D37 /* Pods-Movida-MovidaUITests.debug.xcconfig */,
+				E85DC7A0A58773CF7705573A /* Pods-Movida-MovidaUITests.release.xcconfig */,
+				3CDFD527E469F42DE7DB736A /* Pods-MovidaTests.debug.xcconfig */,
+				A7A82862C78925432BDF8FF1 /* Pods-MovidaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9DA03CB23E63945007E91F8 /* Movida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DA03F623E63948007E91F8 /* Build configuration list for PBXNativeTarget "Movida" */;
+			buildPhases = (
+				A9AE24CC07ABAD5D1C5E579C /* [CP] Check Pods Manifest.lock */,
+				A9DA03C823E63945007E91F8 /* Sources */,
+				A9DA03C923E63945007E91F8 /* Frameworks */,
+				A9DA03CA23E63945007E91F8 /* Resources */,
+				D9C0E3E0B030662A3E7E9F4F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Movida;
+			productName = Movida;
+			productReference = A9DA03CC23E63945007E91F8 /* Movida.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9DA03E123E63948007E91F8 /* MovidaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DA03F923E63948007E91F8 /* Build configuration list for PBXNativeTarget "MovidaTests" */;
+			buildPhases = (
+				56F50FE1CC9098CE0DEA2C40 /* [CP] Check Pods Manifest.lock */,
+				A9DA03DE23E63948007E91F8 /* Sources */,
+				A9DA03DF23E63948007E91F8 /* Frameworks */,
+				A9DA03E023E63948007E91F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9DA03E423E63948007E91F8 /* PBXTargetDependency */,
+			);
+			name = MovidaTests;
+			productName = MovidaTests;
+			productReference = A9DA03E223E63948007E91F8 /* MovidaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9DA03EC23E63948007E91F8 /* MovidaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DA03FC23E63948007E91F8 /* Build configuration list for PBXNativeTarget "MovidaUITests" */;
+			buildPhases = (
+				1E8C822C45A08DA5C038440B /* [CP] Check Pods Manifest.lock */,
+				A9DA03E923E63948007E91F8 /* Sources */,
+				A9DA03EA23E63948007E91F8 /* Frameworks */,
+				A9DA03EB23E63948007E91F8 /* Resources */,
+				EF1913A982BCE6DBE76E8D83 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9DA03EF23E63948007E91F8 /* PBXTargetDependency */,
+			);
+			name = MovidaUITests;
+			productName = MovidaUITests;
+			productReference = A9DA03ED23E63948007E91F8 /* MovidaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9DA03C423E63945007E91F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ian Knott";
+				TargetAttributes = {
+					A9DA03CB23E63945007E91F8 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A9DA03E123E63948007E91F8 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = A9DA03CB23E63945007E91F8;
+					};
+					A9DA03EC23E63948007E91F8 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = A9DA03CB23E63945007E91F8;
+					};
+				};
+			};
+			buildConfigurationList = A9DA03C723E63945007E91F8 /* Build configuration list for PBXProject "Movida" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9DA03C323E63945007E91F8;
+			productRefGroup = A9DA03CD23E63945007E91F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9DA03CB23E63945007E91F8 /* Movida */,
+				A9DA03E123E63948007E91F8 /* MovidaTests */,
+				A9DA03EC23E63948007E91F8 /* MovidaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9DA03CA23E63945007E91F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DA03DC23E63948007E91F8 /* LaunchScreen.storyboard in Resources */,
+				A9550EA023E63CC200E3C9BE /* GoogleService-Info.plist in Resources */,
+				A9550ECC23E6730900E3C9BE /* Main.storyboard in Resources */,
+				A9550EA223E6423100E3C9BE /* imageAssets in Resources */,
+				A9DA03D923E63948007E91F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DA03E023E63948007E91F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DA03EB23E63948007E91F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E8C822C45A08DA5C038440B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Movida-MovidaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56F50FE1CC9098CE0DEA2C40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovidaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9AE24CC07ABAD5D1C5E579C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Movida-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C0E3E0B030662A3E7E9F4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movida/Pods-Movida-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movida/Pods-Movida-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Movida/Pods-Movida-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF1913A982BCE6DBE76E8D83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movida-MovidaUITests/Pods-Movida-MovidaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movida-MovidaUITests/Pods-Movida-MovidaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Movida-MovidaUITests/Pods-Movida-MovidaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9DA03C823E63945007E91F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DA03D423E63945007E91F8 /* ViewController.swift in Sources */,
+				A9DA03D023E63945007E91F8 /* AppDelegate.swift in Sources */,
+				A9550ECE23E67D5700E3C9BE /* LogInView.swift in Sources */,
+				A9550ED423E6883700E3C9BE /* eventFeedTableCell.swift in Sources */,
+				A9DA03D223E63945007E91F8 /* SceneDelegate.swift in Sources */,
+				A9550ED223E67F8900E3C9BE /* EventFeed.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DA03DE23E63948007E91F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DA03E723E63948007E91F8 /* MovidaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DA03E923E63948007E91F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DA03F223E63948007E91F8 /* MovidaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9DA03E423E63948007E91F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9DA03CB23E63945007E91F8 /* Movida */;
+			targetProxy = A9DA03E323E63948007E91F8 /* PBXContainerItemProxy */;
+		};
+		A9DA03EF23E63948007E91F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9DA03CB23E63945007E91F8 /* Movida */;
+			targetProxy = A9DA03EE23E63948007E91F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9550ECA23E6730800E3C9BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9550ECB23E6730800E3C9BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9DA03DA23E63948007E91F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DA03DB23E63948007E91F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9DA03F423E63948007E91F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9DA03F523E63948007E91F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9DA03F723E63948007E91F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DEB861F7818FCA03B07CF03 /* Pods-Movida.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRPZPDJNQ;
+				INFOPLIST_FILE = Movida/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Weconnect.Movida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9DA03F823E63948007E91F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D92DD8B12F6BCAD0E32704 /* Pods-Movida.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRPZPDJNQ;
+				INFOPLIST_FILE = Movida/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Weconnect.Movida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9DA03FA23E63948007E91F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CDFD527E469F42DE7DB736A /* Pods-MovidaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRPZPDJNQ;
+				INFOPLIST_FILE = MovidaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Weconnect.MovidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movida.app/Movida";
+			};
+			name = Debug;
+		};
+		A9DA03FB23E63948007E91F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A82862C78925432BDF8FF1 /* Pods-MovidaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRPZPDJNQ;
+				INFOPLIST_FILE = MovidaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Weconnect.MovidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movida.app/Movida";
+			};
+			name = Release;
+		};
+		A9DA03FD23E63948007E91F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2590E5E09561A23038965D37 /* Pods-Movida-MovidaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRPZPDJNQ;
+				INFOPLIST_FILE = MovidaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Weconnect.MovidaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Movida;
+			};
+			name = Debug;
+		};
+		A9DA03FE23E63948007E91F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E85DC7A0A58773CF7705573A /* Pods-Movida-MovidaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DRPZPDJNQ;
+				INFOPLIST_FILE = MovidaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Weconnect.MovidaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Movida;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9DA03C723E63945007E91F8 /* Build configuration list for PBXProject "Movida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DA03F423E63948007E91F8 /* Debug */,
+				A9DA03F523E63948007E91F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DA03F623E63948007E91F8 /* Build configuration list for PBXNativeTarget "Movida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DA03F723E63948007E91F8 /* Debug */,
+				A9DA03F823E63948007E91F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DA03F923E63948007E91F8 /* Build configuration list for PBXNativeTarget "MovidaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DA03FA23E63948007E91F8 /* Debug */,
+				A9DA03FB23E63948007E91F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DA03FC23E63948007E91F8 /* Build configuration list for PBXNativeTarget "MovidaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DA03FD23E63948007E91F8 /* Debug */,
+				A9DA03FE23E63948007E91F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9DA03C423E63945007E91F8 /* Project object */;
+}
